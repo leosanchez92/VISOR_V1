@@ -42,7 +42,7 @@ integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/k
 <meta name="theme-color" content="#ffffff">
 
 <!--CAPAS-GEOJSON-->
-<script src="data/averdes_imp.js"></script>
+<script src="data/aavv_imp.js"></script>
 <script src="data/limite_prc.js"></script>
 
 <style>
@@ -309,16 +309,12 @@ function onEachFeatureAV(feature, layer) {
     mouseout: resetHighlightAV,
   });
     
-  var popupContent =  '<table class="table table-sm table-borderless">\
+  var popupContent =      '<div style="text-align:center"><h6>'+ (feature.properties.Tipo) +'</h6></div>\
+                          <table class="table table-sm table-borderless">\
                           <tr>\
-                            <th scope="row">Nombre</th>\
+                            <th scope="row">Nombre/ubicación</th>\
                             <td>' + ":" + '</td>\
-                            <td>' + (feature.properties.Nombre) + '</td>\
-                          </tr>\
-                          <tr>\
-                            <th scope="row">Tipo</th>\
-                            <td>' + ":" + '</td>\
-                            <td>'  + (feature.properties.Tipo) + '</td>\
+                            <td>'  + (feature.properties.Tipo) + " " + (feature.properties.LUGAR_1)  +'</td>\
                           </tr>\
                           </table>\
                           '
