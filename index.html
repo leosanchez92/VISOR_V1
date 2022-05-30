@@ -45,12 +45,12 @@ integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/k
 <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<!---CAPAS_GEOJSON--->
-<script type="text/javascript" src="data/limite_comunal.js"></script>
-<script type="text/javascript" src="data/comunidades2022.js"></script>
-<script type="text/javascript" src="data/loc2022.js"></script>
-<script type="text/javascript" src="data/puntos_loc_.js"></script>
-<script type="text/javascript" src="data/sedes_rurales.js"></script>
+<!--CAPAS_GEOJSON-->
+<script src="data/limite_comunal.js"></script>
+<script src="data/comunidades2022.js"></script>
+<script src="data/loc2022.js"></script>
+<script src="data/puntos_loc_.js"></script>
+<script src="data/sedes_rurales.js"></script>
 
 <style>
 /*TÍTULO RESPONSIVE*/
@@ -111,7 +111,7 @@ th{
   <div class="container-fluid col-12 col-md-12 col-lg-10 col-xl-10">
       <a class="navbar-brand"><b>COMUNIDADES Y LOCALIDADES</b></a>
       <div style="padding-left: 4px; padding-right: 8px; justify-content: center;">
-        <img id="logo" src="img/logo_muni2.png" height="50px" width="50px" style="margin-left: 0px; margin-right: 0px;">
+        <img id="logo" src="img/logo_muni2.png" height="50" width="50" alt="logomuni" style="margin-left: 0px; margin-right: 0px;">
       </div>    
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navButton" aria-controls="navButton" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -127,14 +127,14 @@ th{
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Descargas</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown05">
-              <li><a class="dropdown-item" href="data/pdf/NImperial.pdf" target="_blank"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>&nbsp Mapa comunal <b>[PDF]</b></a></li>
-              <li><a class="dropdown-item" href="data\kml\com_imp.kml"><i class="fa fa-earth-americas" aria-hidden="true"></i>  Comunidades <b>[KML]</b></a></li>
-              <li><a class="dropdown-item" href="data\kml\loc_imp.kml"><i class="fa fa-earth-americas" aria-hidden="true"></i>  Localidades <b>[KML]</b></a></li>
+              <li><a class="dropdown-item" href="data/pdf/NImperial.pdf" target="_blank"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>&nbsp; Mapa comunal <b>[PDF]</b></a></li>
+              <li><a class="dropdown-item" href="data/kml/com_imp.kml"><i class="fa fa-earth-americas" aria-hidden="true"></i>  Comunidades <b>[KML]</b></a></li>
+              <li><a class="dropdown-item" href="data/kml/loc_imp.kml"><i class="fa fa-earth-americas" aria-hidden="true"></i>  Localidades <b>[KML]</b></a></li>
             </ul>
           </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Información territorial</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown05">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="false">Información territorial</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown06">
               <li><a class="dropdown-item" href="2_JJVV/index3.html"> Juntas de vecinos</a></li>
               <li><a class="dropdown-item" href="3_PRC/index2.html"> Plan regulador comunal</a></li>
               <li><a class="dropdown-item" href="4_AREAS_VERDES/index4.html"> Áreas verdes</a></li>
@@ -149,18 +149,18 @@ th{
 <!--MAP-->
 <div id="map" class=""></div>
 <!-- Modal inicio -->
-<div class="modal fade" id="aboutModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="aboutModal1" tabindex="-1" aria-labelledby="modalInicio" aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-map-marker" style="color:orange"></i> Visor territorial Nueva Imperial </h5>
+        <h5 class="modal-title" id="modalInicio"><i class="fa fa-map-marker" style="color:orange"></i> Visor territorial Nueva Imperial </h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Acepto"></button>
       </div>
       <div class="modal-body" style="text-align:justify">
          <h5 style="text-align:center">¡Bienvenido/a al visor territorial de la comuna de Nueva Imperial!</h5>
-         Para conocer detalles y obtener ayuda acerca del uso e interacción con las distintas funcionalidades y herramientas disponibles en la plataforma, seleccionar <img src="img/ayuda_visor.png" style="height:25px;width:105px;border-radius: 5px;"> en la barra superior.<hr>
+         Para conocer detalles y obtener ayuda acerca del uso e interacción con las distintas funcionalidades y herramientas disponibles en la plataforma, seleccionar <img src="img/ayuda_visor.png" alt="ayuda" style="height:25px;width:105px;border-radius: 5px;"> en la barra superior.<hr>
          <b>La información aquí disponible es sólo de caracter referencial.</b>
-         <p style="text-align:center">Departamento de SIG - SECPLAN <br><img src="img/logo_muni.jpg" style="width:180px; margin-top:20px"></p>
+         <p style="text-align:center">Departamento de SIG - SECPLAN <br><img src="img/logo_muni.jpg" alt=" logomuni"style="width:180px; margin-top:20px"></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Acepto</button>
@@ -170,11 +170,11 @@ th{
 </div>
 
 <!-- Modal ayuda -->
-<div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="modalAbout" aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-info-circle" style="color:orange"></i> Ayuda visor</h5>
+        <h5 class="modal-title" id="modalAbout"><i class="fa fa-info-circle" style="color:orange"></i> Ayuda visor</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -200,15 +200,14 @@ th{
                   </td>
             </tr>
             <tr>
-              <th scope="row"><img style="width: 25px; height: 25px;" src="assets/css/images/layers.png"></i></th>
+              <th scope="row"><img style="width: 25px; height: 25px;" src="assets/css/images/layers.png" alt="capas"></th>
               <td>Control de capas</td>
               <td>Permite interactuar con las distintas categorías (capas) de información: ocultarlas/desplegarlas, alternarlas, añadir etiquetas y seleccionar el mapa base.</td>
            </tr>
              <tr>
-               <th scope="row"><img style="width: 22px; height: 22px;" src="assets/css/images/rulers.svg"></i></th>
+               <th scope="row"><img style="width: 22px; height: 22px;" src="assets/css/images/rulers.svg" alt="rulers"></th>
                <td>Medición</td>
                <td><i>Sólo disponible para PC.</i> Permite la medición de distancias lineales y áreas.</td>
-            </tr>
             </tr>
            </tbody>
          </table>
