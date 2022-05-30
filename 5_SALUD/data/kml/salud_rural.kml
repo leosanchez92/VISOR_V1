@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>postas_rurales_2022</name>
+<Style id="style1">
+	<IconStyle>
+		<Icon>
+			<href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-dot.png</href>
+		</Icon>
+	</IconStyle>
+</Style>
+<Style id="style2">
+	<IconStyle>
+		<Icon>
+			<href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-dot.png</href>
+		</Icon>
+	</IconStyle>
+</Style>
+<Style id="style3">
+	<IconStyle>
+		<Icon>
+			<href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-dot.png</href>
+		</Icon>
+	</IconStyle>
+</Style>
+<Placemark>
+<name>Molco</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Molco
+<br/><b>TIPO:</b> Posta</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Molco]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-73.11193408936394,-38.86000299167154,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Mañio</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Mañio
+<br/><b>TIPO:</b> Posta</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Mañio]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-73.04480487564759,-38.85073985560187,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Alto Boroa</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Alto Boroa
+<br/><b>TIPO:</b> Posta</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Alto Boroa]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.83480168756861,-38.88348429998871,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Bochoco</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Bochoco
+<br/><b>TIPO:</b> Posta</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Bochoco]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.94901864572707,-38.82377223427822,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Chivilcoyan</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Chivilcoyan
+<br/><b>TIPO:</b> Posta</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Chivilcoyan]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.96721626196467,-38.63350816499837,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Miramar</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Miramar
+<br/><b>TIPO:</b> Posta</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Miramar]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-73.0767555881205,-38.59902968098161,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Rulo</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Rulo
+<br/><b>TIPO:</b> Posta</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Rulo]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-73.02549953985647,-38.756646507283016,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Pidenko</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Pidenko
+<br/><b>TIPO:</b> Estacion Medico Rural</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Pidenko]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Estacion Medico Rural]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-73.06556893042206,-38.68970078926495,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Puente Negro</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Puente Negro
+<br/><b>TIPO:</b> Estacion Medico Rural</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Puente Negro]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Estacion Medico Rural]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-73.04709879605073,-38.80476546604342,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Entre Rios</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Entre Rios
+<br/><b>TIPO:</b> Estacion Medico Rural</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Entre Rios]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Estacion Medico Rural]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.84934887919471,-38.785947054091096,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Filulawen</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Filulawen
+<br/><b>TIPO:</b> Intercultural</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Filulawen]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Intercultural]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.88929174766648,-38.837574967217314,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Queupúe</name>
+<description><![CDATA[<p><b>NOMBRE:</b> Queupúe
+<br/><b>TIPO:</b> Posta</p>]]></description>
+<ExtendedData>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Queupúe]]></value></Data>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.87315111851089,-38.90485877016812,0.000</coordinates>
+	</Point>
+</Placemark>
+
+</Document>
+</kml>

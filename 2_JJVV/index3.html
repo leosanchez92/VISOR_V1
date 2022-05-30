@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<title>Visor Territorial Nueva Imperial</title>
+
+<!--FRAMEWORKS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/051401fe98.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+<link rel="stylesheet" href="assets/css/L.Control.Locate.scss" />
+<link rel="stylesheet" href="assets/css/MarkerCluster.Default.css" />
+<link rel="stylesheet" href="assets/css/MarkerCluster.css" />
+<link rel="stylesheet" href="assets/css/leaflet-search.css" />
+<link rel="stylesheet" href="assets/css/leaflet-measure.css"/>
+<link rel="stylesheet" href="assets/css/index1.css" />
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+<script src="assets/js/L.Control.Locate.js"></script>
+<script src="assets/js/index1.js"></script>
+<script src="assets/js/leaflet-search.js"></script>
+<script src="assets/js/leaflet.markercluster-src.js"></script>
+<script src="assets/js/leaflet-measure.js"></script>
+<script src="assets/js/leaflet.groupedlayercontrol.min.js"></script>
+
+<!--FAVICON-->
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<!--CAPAS-GEOJSON-->
+<script type="text/javascript" src="data/jjvv_impe.js"></script>
+<script type="text/javascript" src="data/limite_prc.js"></script>
+<script type="text/javascript" src="data/sedes_urb.js"></script>
+
+<style>
+/*TÍTULO RESPONSIVE*/
+@media(max-width: 550px){
+    .navbar-brand{
+    font-size: 4vw;
+  }
+    #logo{
+      width: 35px;
+      height: 35px;
+    }  
+
+    .navbar-collapse a{
+      font-size: 3.5vw;
+    }
+  }
+
+.img {
+  vertical-align: middle;
+}
+
+#btn{
+  position:absolute;
+  top:10px;
+  right:10px;
+  z-index:1000;
+  background:white;
+}
+
+.leaflet-tooltip {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  padding: 1px 3px;
+  background: white;
+  border: none;
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+  font-size: 9px;
+  text-align: center;
+}
+
+td {
+  text-align: left;
+}
+
+th{
+  vertical-align: middle;
+  text-align: left;
+}
+</style>
+</head>
+
+<body>
+<!--NAVBAR-->
+<header>
+<nav class="navbar navbar-expand-xl navbar-light fixed-top lex-sm-nowrap flex-wrap py-1" aria-label="Fifth navbar example">
+  <div class="container-fluid col-12 col-md-12 col-lg-10 col-xl-10">
+      <a class="navbar-brand" href="#"><b>JUNTAS DE VECINOS</b></a>
+      <div style="padding-left: 4px; padding-right: 8px; justify-content: center;">
+        <img id="logo" src="img/logo_muni2.png" height="50px" width="50px" style="margin-left: 0px; margin-right: 0px;">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navButton" aria-controls="navButton" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navButton">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#aboutModal" aria-current="page" href="#">Ayuda visor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.nuevaimperial.cl/" target="_blank">Municipalidad</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Descargas</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                <li><a class="dropdown-item" href="data/pdf/JJVV_Imperial.pdf"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>&nbsp Juntas de vecinos <b>[PDF]</b></a></li>
+                <li><a class="dropdown-item" href="data/kml/jjvv_imp.kml"><i class="fa fa-earth-americas" aria-hidden="true"></i>  Juntas de vecinos <b>[KML]</b></a></li>
+              </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Información territorial</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                <li><a class="dropdown-item" href="../index.html"> Comunidades y localidades</a></li>
+                <li><a class="dropdown-item" href="../3_PRC/index2.html"> Plan regulador comunal</a></li>
+                <li><a class="dropdown-item" href="../4_AREAS_VERDES/index4.html"> Áreas verdes</a></li>
+                <li><a class="dropdown-item" href="../5_SALUD/index5.html"> Establecimientos de salud</a></li>
+              </ul>
+          </li>    
+        </ul>
+      </div>   
+    </div>
+  </nav>
+</header>
+<!--MAP-->
+<div id="map" class=""></div>
+<!-- Modal inicio -->
+<div class="modal fade" id="aboutModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-map-marker" style="color:orange"></i> Visor territorial Nueva Imperial </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Acepto"></button>
+      </div>
+      <div class="modal-body" style="text-align:justify">
+         <h5 style="text-align:center">¡Bienvenido/a al visor territorial de la comuna de Nueva Imperial!</h5>
+         Para conocer detalles y obtener ayuda acerca del uso e interacción con las distintas funcionalidades y herramientas disponibles en la plataforma, seleccionar <img src="img/ayuda_visor.png" style="height:25px;width:105px;border-radius: 5px;"> en la barra superior.<hr>
+         <b>La información aquí disponible es sólo de caracter referencial.</b>
+         <p style="text-align:center">Departamento de SIG - SECPLAN <br><img src="img/logo_muni.jpg" style="width:180px; margin-top:20px"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Acepto</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal ayuda -->
+<div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-info-circle" style="color:orange"></i> Ayuda visor</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <p>La plataforma está optimizada para ser utilizada tanto en equipos móviles y en PC. A continuación, detalles sobre el uso del visor. Para acceder a las herramientas, basta con hacer click o seleccionarlas.</p>
+         <table class="table table-responsive">
+           <thead>
+             <tr>
+               <th scope="col"></th>
+               <th scope="col">Herramienta</th>
+               <th scope="col">Uso</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <th scope="row"><i style="font-size: 30px" class="fa fa-location-arrow fa-2x"></i></th>
+               <td>Ubicación</td>
+               <td>Muestra su ubicación actual en el mapa. Requiere tener activados los servicios de ubicación.</td>
+            </tr>
+             <tr>
+               <th scope="row"><i style="margin-bottom: 5px;" class="fa fa-search fa-lg"></i></th>
+               <td>Búsqueda</td>
+               <td>Permite la búsqueda de elementos específicos (entidades) según las distintas categorías de información desplegadas en el visor. Al seleccionar el resultado, la vista del mapa se acerca y posiciona sobre él.
+                  </td>
+            </tr>
+            <tr>
+              <th scope="row"><img style="width: 25px; height: 25px;" src="assets/css/images/layers.png"></i></th>
+              <td>Control de capas</td>
+              <td>Permite interactuar con las distintas categorías (capas) de información: ocultarlas/desplegarlas, alternarlas, añadir etiquetas y seleccionar el mapa base.</td>
+           </tr>
+             <tr>
+               <th scope="row"><img style="width: 22px; height: 22px;" src="assets/css/images/rulers.svg"></i></th>
+               <td>Medición</td>
+               <td><i>Sólo disponible para PC.</i> Permite la medición de distancias lineales y áreas.</td>
+            </tr>
+            </tr>
+           </tbody>
+         </table>
+         En la sección de descargas, están disponibles archivos en formato *.KML para abrir/visualizar en Google Earth y mapas en formato PDF. Para visualizar otras categorías de información comunal, seleccionar "información territorial".
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+// MODAL INICIO 
+/*window.onload = function () {
+OpenBootstrapPopup();
+};
+function OpenBootstrapPopup() {
+$("#aboutModal1").modal('show');
+}
+*/  
+// MAPA BASE
+var map = L.map('map', {zoomControl: false, minZoom: 10, maxZoom: 17, zoomSnap: 0.5}).setView([-38.7421229, -72.9458827], 14.5);
+    
+var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    opacity: 1.0,
+    minZoom: 10,
+    maxZoom: 18,
+    minNativeZoom: 0,
+    maxNativeZoom: 18,
+    zIndex: 400,
+});
+    
+var ESRIsat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+  attribution: '©<a href="http://www.esri.com/"> Esri</a>',
+  opacity: 1.0,
+  minZoom: 10,
+  maxZoom: 17,
+  minNativeZoom: 0,
+  maxNativeZoom: 18,
+  zIndex: 399,
+});
+    
+var cartoPos = L.tileLayer('https://cartodb-basemaps-a.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+  attribution: '©Map tiles by CartoDB, under CC BY 3.0 ',
+  opacity: 1.0,
+  minZoom: 10,
+  maxZoom: 18,
+  minNativeZoom: 0,
+  maxNativeZoom: 18,
+  zIndex: 401,
+}).addTo(map);
+    
+var openTopo = L.tileLayer('https://tile.opentopomap.org/{z}/{x}/{y}.png', {
+  attribution: 'TopOSM was created by User: Ahlzen, with contributions from several others, including Ian Dees, Nick Thompson and Phil Gold.',
+  opacity: 1.0,
+  minZoom: 10,
+  maxZoom: 18,
+  minNativeZoom: 0,
+  maxNativeZoom: 18,
+  zIndex: 397,
+});
+    
+//ZOOM CONTROL
+var zoom = L.control.zoom({
+  zoomInTitle: 'Acercar',
+  zoomOutTitle: 'Alejar'
+}).addTo(map);
+    
+//UBICACIÓN
+var cLocate = L.control.locate({
+  position: 'topleft',
+  icon: 'fa fa-location-arrow fa-2x',
+  iconLoading: 'fa fa-spinner fa-spin fa-lg',
+  flyTo: true,
+  locateOptions: {
+    enableHighAccuracy: true
+  },
+  strings: {
+    title: "Muestra tu ubicación actual",
+    popup: "La precisión actual es de aprox. {distance} {unit} alrededor de este punto.",
+    metersUnit: "metros"
+  }
+}).addTo(map);
+    
+//PROPIEDADES HOVER (HIGHLIGHT FEATURE)
+function highlightFeature(e) {
+  var layer = e.target;
+    layer.setStyle({
+        weight: 2,
+        dashArray: '',
+        fillOpacity: 0.4
+      });
+}
+  
+function resetHighlightJV(e) {
+  jvImpe.resetStyle(e.target);
+}
+    
+// onEachFeature Loc
+function onEachFeatureJV(feature, layer) {    
+  layer.on({
+    mouseover: highlightFeature,
+    mouseout: resetHighlightJV,
+  });
+
+  var popupContent =  '<table class="table table-responsive table-sm table-borderless">\
+                          <tr>\
+                            <th "scope="row">JJVV</th>\
+                            <td>' + ":" + '</td>\
+                            <td>' + (feature.properties.NOMBRE) + '</td>\
+                          </tr>\
+                          <tr>\
+                            <th "scope="row">UV Nº</th>\
+                            <td>'  + ":" + '</td>\
+                            <td>'  + (feature.properties.UV) + '</td>\
+                          </tr>\
+                          </table>\
+                          '
+                          ;
+  layer.bindPopup(popupContent,{
+    maxHeight: 400,
+  });
+}
+    
+// OnEachFeature Urbano
+function onEachFeatureSedes(feature, layer) {
+  var popupContent =  '<div style="text-align:center"><h6>Sede Urbana</h6></div>\
+                          <table class="table table-sm table-borderless">\
+                          <tr>\
+                            <th scope="row">Nombre</th>\
+                            <td>' + ":" + '</td>\
+                            <td>' + (feature.properties.NOMBRE) + '</td>\
+                          </tr>\
+                          <tr>\
+                            <th scope="row">Tipo</th>\
+                            <td>' + ":" + '</td>\
+                            <td>' + (feature.properties.TIPO) + '</td>\
+                          </tr>\
+                          <tr>\
+                            <th scope="row">JJVV Nº</th>\
+                            <td>' + ":" + '</td>\
+                            <td>' + (feature.properties.JJVV_Nº) + '</td>\
+                          </tr>\
+                          </table>\
+                          '
+                          ;
+    layer.bindPopup(popupContent,{
+      maxHeight: 400,
+    });
+}
+
+//ESTILOS
+//Función de estilo para PRC
+function stylePRC(feature) {
+  return{
+    opacity: 0.8,
+    color: 'rgba(0,0,0, 1.0)',
+    //dashArray: '10,5', (Línea punteada, mayor valor menos segmentos)
+    lineCap: 'butt',  
+    lineJoin: 'round',  //(Uniones, redondeadas o rectas)
+    weight: 1.2,
+    fill: false,
+    fillOpacity: 0.8,
+    fillColor: 'rgba(229,182,54,0.0)',
+    interactive: false,
+  }
+}
+    
+    //Función de estilo para JV
+    function getColor(d) {
+    return d == 01 ? '#ea345f' :
+           d == 02  ? '#db3c7c' :
+           d == 03  ? '#d7e822' :
+           d == 04 ? '#d4525f':
+           d == 05  ? '#dbce17' :
+           d == 06  ? '#54e5c3' :
+           d == 07 ? '#ead079':
+           d == 10 ? '#7378d6':
+           d == 11  ? '#ce71b4' :
+           d == 15  ? '#55ea96' :
+           d == 17  ? '#8f40ee' :
+           d == 18  ? '#4cea76' :
+           d == 19 ? '#e9751b':
+           d == 20  ? '#acdf21' :
+           d == 21  ? '#68e0f0' :
+           d == 22 ? '#65e85c':
+           d == 23  ? '#1524df' :
+           d == 24  ? '#ee916f' :
+           d == 25 ? '#cc7cc3':
+           d == 26  ? '#5924df' :
+           d == 27  ? '#9de143' :
+           d == 28 ? '#c23fc9':
+           d == 29  ? '#5875de' :
+           d == 30  ? '#34a7d4' :
+           d == 31 ? '#1592db':
+           d == 32 ? '#71cec9':
+           d == 33 ? '#e17f74':
+           d == 34 ? '#117cd4':
+           d == 35 ? '#aaef7c':
+           d == "A" ? '#da2e8d':
+           d == "B" ? '#76cf5b':
+           d == "C" ? '#b067dd':
+           d == "D" ? '#e19829':
+           d == "E" ? '#c839ef':
+           d == "F" ? '#5588da':
+                      '#FFEDA0';
+}
+
+function styleJV(feature) {
+  return{
+    opacity: 1,
+    color: 'rgba(255,24,24,1.0)',
+    dashArray: '2', //(Línea punteada, mayor valor menos segmentos)
+    lineCap: 'square',  
+    lineJoin: 'round',  //(Uniones, redondeadas o rectas)
+    weight: 0.5,
+    fill: true,
+    fillOpacity: 0.15,
+    fillColor: getColor(feature.properties.UV),   // en get color se configura una paleta para c/entidad
+    interactive: true,
+  }}
+    
+    //Función de estilo para etiquetas JV
+function styleLab(feature) {
+  return{
+    opacity: 0,
+    color: 'rgba(34,24,24,1.0)',
+    //dashArray: '10,5', (Línea punteada, mayor valor menos segmentos)
+    lineCap: 'butt',  
+    lineJoin: 'round',  //(Uniones, redondeadas o rectas)
+    weight: 0,
+    fill: false,
+    interactive: false,
+  }}
+
+    //Función de estilo para sedes
+var iconoCat2 = L.divIcon({
+              className: 'custom-div-icon',
+              html: "<div style='background-color: #1443d0' class='marker-pin-g'></div><i style='color:#c36800'; class='fa fa-house-circle-check'>",
+              iconSize: [28, 42],
+              popupAnchor: [12, -30],
+              iconAnchor: [15, 42]
+        });
+
+var iconoCat3 = L.divIcon({
+              className: 'custom-div-icon',
+              html: "<div style='background-color: #145f' class=''></div><i style='color:#145f'; class='fa fa-house-circle-check'>",
+              iconSize: [28, 42],
+              popupAnchor: [12, -30],
+              iconAnchor: [15, 42]
+        });
+      
+function iconSedurb(feature) {
+  var icon;
+    if (feature.properties.TIPO == 'Deportivo') icon = iconoCat2;
+    else icon = iconoCat3;
+    return icon
+};
+    
+    //DECLARAR CAPAS
+var sedurbImp = new L.geoJson(sedurbImperial, {
+  pointToLayer: function (feature, latlong) {
+      return L.marker(latlong, {icon: iconSedurb(feature), interactive: true})
+    },
+  onEachFeature: onEachFeatureSedes,
+});
+    
+var jvImpe = new L.geoJson(jvImperial, {
+  style: styleJV,
+  onEachFeature: onEachFeatureJV,
+}).addTo(map);
+    
+var labJV = new L.geoJson(jvImperial, {
+  style: styleLab       
+}).addTo(map);
+  
+var limPRC = new L.geoJson(limitePRC, {
+  style: stylePRC
+}).addTo(map);
+    
+var clusters = L.markerClusterGroup({
+  showCoverageOnHover: false,
+  disableClusteringAtZoom: 17,
+});clusters.addLayer(sedurbImp);
+
+// ETIQUETADO
+//ETIQUETAS JJVV
+map.on('zoomend', function() {
+  var zoom = map.getZoom();
+    if( map.hasLayer(labJV) ) {
+      labJV.eachLayer( function (layer){
+        //console.log(layer);
+        if ( zoom >= 15 && (!layer.getTooltip()) ) {
+          tooltiptext = '<b>'+'<div style="color:darkblue">'+layer.feature.properties.NOMBRE+'</div>'+'</b>';
+          layer.bindTooltip(tooltiptext , { sticky: true ,permanent: true, interactive: true , direction: 'center'});
+          } else if ( zoom < 15 && (layer.getTooltip()) ) {
+              //console.log('remove tooltip');
+              layer.unbindTooltip();
+          }});
+    }});
+      
+//CONTROL DE CAPAS
+var baselayers = {
+  "Mapa base - Carto Light": cartoPos,
+  "Mapa base - Open Street Maps": osm,
+  "Mapa base - ESRI Satelital": ESRIsat,
+  "Mapa base - Topografía": openTopo,
+}
+    
+var locTM = {
+  "CAPAS DE INFORMACIÓN": {
+    '<img style="margin-bottom:4px; margin-right:4px; box-shadow:2px 2px 2px gray;" src="legend/prcImpe.png" /> Límite PRC': limPRC,
+    '<img style="margin-bottom:5px; margin-right:4px; box-shadow:2px 2px 2px gray" src="legend/jvImpe.png" /> Juntas de vecinos': jvImpe,
+    '<i class="fa fa-tags fa-lg"  aria-hidden="true" style="margin: 0 1px 0 2px"></i> Etiquetar': labJV,
+    ' Sedes urbanas<br><img style="margin-bottom:5px; margin-right:4px;"; width="25px"; height:"25px"; src="legend/sede2.png" />Juntas de vecinos<br><img style="margin-bottom:5px; margin-right:4px;" ; width="25px"; height:"25px"; src="legend/sede1.png" />Deportivas<br>': clusters,
+}};
+    
+var layerControl = new L.control.groupedLayers(baselayers, locTM, {'collapsed': true}).addTo(map);
+
+//BUSQUEDA
+var searchLayers = L.layerGroup([
+  jvImpe
+]);
+
+var searchLayers2 = L.layerGroup([
+  clusters
+]);
+    
+var searchControl = new L.Control.Search({
+  layer: searchLayers,
+  propertyName: 'NOMBRE',
+  initial: false,    
+  marker: false,
+  buildTip: function(text, val) {
+      var type = val.layer.feature.properties.TIPO;      // properties.TIPO DECLARA LA CLASE DE LA ENTIDAD, CREAR CAMPO EN JS.
+      return '<a href="#" class="'+type+'">'+text+'<b>'+type+'</b></a>';
+    },
+  zoom: 17,
+  textPlaceholder: 'Buscar unidad vecinal',
+  textCancel: 'Cancelar',
+  textErr: 'No encontrado',
+});
+         
+searchControl.on('search:locationfound', function(e) {
+  e.layer.setStyle({fillColor: '#25c5f5', color: '#25c5f5', opacity: 0.8});
+  if(e.layer._popup)
+    e.layer.openPopup();
+  }).on('search:collapsed', function(e) {
+    jvImpe.eachLayer(function(layer) {	// restaurar color entidad
+      jvImpe.resetStyle(layer);
+  });
+});
+    
+var asda = L.DomUtil.create('id')
+
+var searchControl2 = new L.Control.Search({ 
+  layer: searchLayers2,
+  propertyName: 'NOMBRE',
+  initial: false,
+  marker: false,
+  buildTip: function(text, val) {
+      var type = val.layer.feature.properties.TIPO;      // properties.TIPO DECLARA LA CLASE DE LA ENTIDAD, CREAR CAMPO EN JS.
+      return '<a href="#" class="'+type+'">'+text+'<b>Sede '+type+'</b></a>';
+    },
+  zoom: 17,
+  textPlaceholder: 'Buscar sedes',
+  textCancel: 'Cancelar',
+  textErr: 'No encontrado',
+});
+
+/*var squer = document.querySelectorAll('[_leaflet_id="290"]');
+console.log("PARAD", squer)*/
+
+searchControl2.add = 'dd';
+searchControl2.on('search:locationfound', function(e) {
+  if(e.layer._popup)
+  e.layer.openPopup();
+});
+map.addControl(searchControl);
+map.addControl(searchControl2);
+
+    // MEDICION DE DISTANCIAS (SOLO EN PC)
+var measureControl = new L.Control.Measure({
+  position: 'topleft',
+  primaryLengthUnit: 'meters',
+  secondaryLengthUnit: 'kilometers',
+  primaryAreaUnit: 'sqmeters',
+  secondaryAreaUnit: 'hectares',
+  activeColor: '#f5442',
+});
+    
+if (screen.width >= 500) {
+  measureControl.addTo(map);
+};
+    
+var scale = L.control.scale({
+  imperial: false,
+}); 
+scale.addTo(map);
+</script>
+</body>
+</html>

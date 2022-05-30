@@ -1,0 +1,3048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>areas_vv_2022</name>
+	<Style id="style1">
+		<LineStyle>
+			<color>bf034d13</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8c47fa8c</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="style10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style11">
+		<LineStyle>
+			<color>bf034d13</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8c47fa8c</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>1</name>
+		<description><![CDATA[<p>
+Nombre: El Bosque
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>1</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>El Bosque</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>2793</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta El Bosque</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94581349628066,-38.73391493725512,0 -72.94581784671433,-38.73376310444838,0 -72.94603212244141,-38.73376145806419,0 -72.94602829789086,-38.73351251353261,0 -72.94521902969201,-38.73352117332881,0 -72.94521945060315,-38.73388879855885,0 -72.94524248316283,-38.73391352068142,0 -72.94581349628066,-38.73391493725512,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94579482790695,-38.73368929462472,0 -72.94580037752571,-38.73389154571609,0 -72.94539198188356,-38.73389103041421,0 -72.9454036964263,-38.73368019698312,0 -72.94579482790695,-38.73368929462472,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>2</name>
+		<description><![CDATA[<p>
+Nombre: Michelle Bachelet
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>2</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Michelle Bachelet</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>3790</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta Michelle Bachelet</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94295857008966,-38.73456251861041,0 -72.94295653632985,-38.7355931441541,0 -72.94297786632127,-38.7356135454883,0 -72.94329012617915,-38.73561475050065,0 -72.94332977131727,-38.73556967485681,0 -72.94333369109583,-38.73456060613257,0 -72.94295857008966,-38.73456251861041,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>3</name>
+		<description><![CDATA[<p>
+Nombre: Plazoleta Las Golondrinas
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>3</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Plazoleta Las Golondrinas</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>1640</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta Las Golondrinas</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94614617069588,-38.7343359818143,0 -72.94614451050583,-38.73483260832604,0 -72.94622353279728,-38.73481540171726,0 -72.94631972036331,-38.73477274916966,0 -72.94640019930341,-38.7347684418156,0 -72.94647458790891,-38.73478548367532,0 -72.94651421309952,-38.73480477545127,0 -72.94651551488124,-38.73432811949872,0 -72.94614617069588,-38.7343359818143,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>4</name>
+		<description><![CDATA[<p>
+Nombre: La Unión
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>4</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>La Unión</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>3263</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta La Unión</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94564673086514,-38.73591055617056,0 -72.94564850874946,-38.73666710135295,0 -72.94609619693016,-38.73666376558778,0 -72.94609756514494,-38.73591522557687,0 -72.94564673086514,-38.73591055617056,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>5</name>
+		<description><![CDATA[<p>
+Nombre: Presidente Lagos
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>5</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Presidente Lagos</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>4386</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Presidente Lagos</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94542018117016,-38.73841556041472,0 -72.94541783342,-38.73821029762192,0 -72.94561664044762,-38.73821379295212,0 -72.94561695393354,-38.73723835928928,0 -72.94559379730126,-38.73721792631651,0 -72.94523216225798,-38.73721872004152,0 -72.94520059761261,-38.73723676045441,0 -72.94520456557566,-38.73837258266559,0 -72.94522723065259,-38.73841017209386,0 -72.94525996553411,-38.73841503895622,0 -72.94542018117016,-38.73841556041472,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.9455463023137,-38.7373636746478,0 -72.94555013288191,-38.73762587499765,0 -72.94535105327827,-38.73764458943753,0 -72.94535604632681,-38.73737143690258,0 -72.9455463023137,-38.7373636746478,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>6</name>
+		<description><![CDATA[<p>
+Nombre: Los Altos de Imperial
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>6</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Los Altos de Imperial</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>2345</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta L. Altos de Imperial</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.9453671085426,-38.73852134343947,0 -72.9453491820116,-38.73850958489007,0 -72.94481955927657,-38.73850885384245,0 -72.94478235366785,-38.73853251659516,0 -72.94478787862528,-38.7389131050643,0 -72.94479846237547,-38.73892616497471,0 -72.94532784229807,-38.73893547438968,0 -72.94535936669895,-38.73891886366485,0 -72.9453671085426,-38.73852134343947,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>7</name>
+		<description><![CDATA[<p>
+Nombre: El Esfuerzo
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>7</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>El Esfuerzo</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>565</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha El Esfuerzo</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94762004649699,-38.73858501349797,0 -72.94742051942745,-38.73857960169624,0 -72.94740262297087,-38.73886441751063,0 -72.94761183197791,-38.73887190662649,0 -72.94762004649699,-38.73858501349797,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>8</name>
+		<description><![CDATA[<p>
+Nombre: Los Alerces
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>8</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Los Alerces</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>459</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Los Alerces</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95712603941517,-38.73848264275606,0 -72.95693868085756,-38.73847745995141,0 -72.95692071909312,-38.73872317829008,0 -72.95711775972961,-38.73873043762213,0 -72.95712603941517,-38.73848264275606,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>9</name>
+		<description><![CDATA[<p>
+Nombre: Plazoleta Coñoepan
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>9</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Plazoleta Coñoepan</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>510</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta Coñoepan</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95599233012848,-38.73810223238422,0 -72.95601227956254,-38.73782960937105,0 -72.95581604558642,-38.7378261767636,0 -72.95580069298326,-38.73809768813326,0 -72.95599233012848,-38.73810223238422,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>10</name>
+		<description><![CDATA[<p>
+Nombre: Villa Los Ríos
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>10</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Villa Los Ríos</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>596</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Villa Los Ríos</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95045113203138,-38.73572472850988,0 -72.95046586326973,-38.73542219931282,0 -72.95025705939757,-38.7354223667099,0 -72.95024855657354,-38.73571974495725,0 -72.95045113203138,-38.73572472850988,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>11</name>
+		<description><![CDATA[<p>
+Nombre: Multicancha Eduardo Frei
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>11</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Multicancha Eduardo Frei</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>590</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Eduard</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95026828087768,-38.73286239699576,0 -72.94988980825322,-38.7328567115439,0 -72.94988760865189,-38.73301878729541,0 -72.95026118740476,-38.73302534053711,0 -72.95026828087768,-38.73286239699576,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>12</name>
+		<description><![CDATA[<p>
+Nombre: Estadio Municipal
+<br/>Tipo: Estadio
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>12</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Estadio Municipal</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Estadio</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>20312</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Estadio Municipal</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94944279549695,-38.73924832878608,0 -72.94887590391636,-38.73923075067284,0 -72.9488363607194,-38.73925103604869,0 -72.94791919954683,-38.73921967550142,0 -72.9478758797205,-38.73920174972331,0 -72.9474986184363,-38.73919512385752,0 -72.94745112103915,-38.74025852109646,0 -72.94939390887673,-38.74036129056856,0 -72.94944279549695,-38.73924832878608,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>13</name>
+		<description><![CDATA[<p>
+Nombre: El Esfuerzo
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>13</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>El Esfuerzo</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>378</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos El Esfuerzo</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.9458298556026,-38.73979218088384,0 -72.9455681455445,-38.73952414459263,0 -72.94554058371544,-38.73979543950552,0 -72.9458298556026,-38.73979218088384,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>14</name>
+		<description><![CDATA[<p>
+Nombre: Plazoleta Corvi
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>14</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Plazoleta Corvi</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>892</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta Corvi</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94950319787198,-38.74056105359944,0 -72.94954245894439,-38.740593211751,0 -72.94977624507401,-38.74059302259069,0 -72.94981759193413,-38.74055226587811,0 -72.94982844036988,-38.74030070246383,0 -72.94951466092176,-38.74028804472552,0 -72.94950319787198,-38.74056105359944,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>15</name>
+		<description><![CDATA[<p>
+Nombre: Rafael Sotomayor
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>15</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Rafael Sotomayor</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>235</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta Rafael Sotomayor</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95277310205992,-38.74001153158253,0 -72.95277754703383,-38.73988787815178,0 -72.9525812669831,-38.73988586966598,0 -72.95257680125151,-38.7400102379321,0 -72.95277310205992,-38.74001153158253,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>16</name>
+		<description><![CDATA[<p>
+Nombre: Parque Borde Río
+<br/>Tipo: Parque
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>16</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Parque Borde Río</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Parque</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>4764</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Parque Borde Río</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95674618394101,-38.74155786062668,0 -72.95672898607833,-38.74184078308801,0 -72.95727786115066,-38.74187183571862,0 -72.95753433268152,-38.74184484964305,0 -72.95760532489741,-38.74185324260141,0 -72.95770815831128,-38.74189795253504,0 -72.95780311937123,-38.74196255067947,0 -72.95791412579506,-38.74184862661958,0 -72.95795612066149,-38.74178499159275,0 -72.95798651799247,-38.7416796716908,0 -72.9580132790707,-38.74144555039948,0 -72.95802741682807,-38.74131216909115,0 -72.95801942054067,-38.74123960766111,0 -72.95800157344183,-38.74119570857994,0 -72.95795924980476,-38.74115869116886,0 -72.95790544417406,-38.74113031430277,0 -72.95772482696452,-38.74107804268458,0 -72.95767614448626,-38.74161130895035,0 -72.95674618394101,-38.74155786062668,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>17</name>
+		<description><![CDATA[<p>
+Nombre: Recinto Estación
+<br/>Tipo: Parque
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>17</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Recinto Estación</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Parque</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>5576</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Parque Recinto Estación</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95409975875899,-38.74127430388838,0 -72.95658630817398,-38.7413447419333,0 -72.95659617801769,-38.74111776739308,0 -72.95650684998189,-38.74111191401725,0 -72.95584836875418,-38.74108180132256,0 -72.95493776343039,-38.74105442481201,0 -72.95412617473094,-38.74107740911621,0 -72.95409975875899,-38.74127430388838,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>18</name>
+		<description><![CDATA[<p>
+Nombre: Vista Hermosa
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>18</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Vista Hermosa</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>927</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Vista Hermosa</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94273505958542,-38.74205878779986,0 -72.9424300372731,-38.74204772358018,0 -72.9424069211455,-38.74236058365227,0 -72.94271404812368,-38.74237195143323,0 -72.94273505958542,-38.74205878779986,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>19</name>
+		<description><![CDATA[<p>
+Nombre: Vista Hermosa
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>19</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Vista Hermosa</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>361</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta Vista Hermosa</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94357179248772,-38.74234294527238,0 -72.94356179313206,-38.74242621031011,0 -72.94397074393426,-38.74244294276906,0 -72.94400016092804,-38.74242558014898,0 -72.94400221160656,-38.74235409535721,0 -72.94357179248772,-38.74234294527238,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>20</name>
+		<description><![CDATA[<p>
+Nombre: Complejo Dep. Diego Portales
+<br/>Tipo: Complejo Deportivo
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>20</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Complejo Dep. Diego Portales</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Complejo Deportivo</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>29188</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Complejo Dep. Diego Portales</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94059646528174,-38.74508781427802,0 -72.9387864327783,-38.74620786065105,0 -72.93952580252905,-38.74742817178232,0 -72.94132617373511,-38.7463060368977,0 -72.94059646528174,-38.74508781427802,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>21</name>
+		<description><![CDATA[<p>
+Nombre: Santa Teresa
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>21</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Santa Teresa</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>521</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Santa Teresa</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.93984747268675,-38.75301949500105,0 -72.93964614122524,-38.75303310990795,0 -72.93966235244201,-38.75329516159243,0 -72.93987098787055,-38.7532816754484,0 -72.93984747268675,-38.75301949500105,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>22</name>
+		<description><![CDATA[<p>
+Nombre: Santa Teresa
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>22</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Santa Teresa</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>156</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos Santa Teresa</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94006372608253,-38.75248690236557,0 -72.93995936843847,-38.75249507537946,0 -72.93996996662709,-38.7526347276505,0 -72.93998515698232,-38.75264643878626,0 -72.94006750258211,-38.75264145371456,0 -72.94007704260771,-38.75262731776105,0 -72.94006372608253,-38.75248690236557,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>23</name>
+		<description><![CDATA[<p>
+Nombre: Multicancha Araucanía
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>23</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Multicancha Araucanía</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>524</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Arauca</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.93698968883666,-38.75327932812274,0 -72.93676125747432,-38.75328244664875,0 -72.93680851750048,-38.75354433168384,0 -72.9369959375734,-38.75353810493918,0 -72.93698968883666,-38.75327932812274,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>24</name>
+		<description><![CDATA[<p>
+Nombre: Santa Teresa
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>24</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Santa Teresa</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>503</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta Santa Teresa</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.93853989823384,-38.75169911820328,0 -72.93837618367398,-38.75170695776409,0 -72.93837337134227,-38.75199513663259,0 -72.93838391458345,-38.75200962680621,0 -72.93855402004313,-38.75200189999661,0 -72.93853989823384,-38.75169911820328,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>25</name>
+		<description><![CDATA[<p>
+Nombre: Parque Coilaco
+<br/>Tipo: Parque
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>25</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Parque Coilaco</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Parque</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>4776</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Parque Coilaco</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94850402485341,-38.75023642587298,0 -72.94905702209968,-38.75057226885921,0 -72.94923181246646,-38.75071980888869,0 -72.94941780360081,-38.75085896273178,0 -72.94958243363216,-38.75091477726065,0 -72.94966791697303,-38.7509277206597,0 -72.94970570484469,-38.75018170615211,0 -72.94963129955443,-38.75016466593414,0 -72.9495380231964,-38.75016875076154,0 -72.9493806004518,-38.75018029226176,0 -72.94922808199389,-38.75021194546159,0 -72.94913857981322,-38.75021180496036,0 -72.94900363876762,-38.75020371471482,0 -72.94884865555662,-38.75019384206645,0 -72.94862928035229,-38.75020000373473,0 -72.94850402485341,-38.75023642587298,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>26</name>
+		<description><![CDATA[<p>
+Nombre: Plaza Los Aromos
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>26</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Plaza Los Aromos</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>652</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta Plaza Los Aromos</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94405672642945,-38.74995251603701,0 -72.94403974078233,-38.74986543860011,0 -72.94401594476854,-38.74984594767747,0 -72.94339190218544,-38.7499074397903,0 -72.94340667160634,-38.74998684942122,0 -72.94344393823872,-38.75000371673036,0 -72.94405672642945,-38.74995251603701,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>27</name>
+		<description><![CDATA[<p>
+Nombre: Plaza Las Estrellas
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>27</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Plaza Las Estrellas</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>570</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos Plaza Las Estrellas</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.93952693713678,-38.75049101268878,0 -72.93946192969369,-38.7503060579873,0 -72.93943655447964,-38.7502991736253,0 -72.93899910203687,-38.75052032459568,0 -72.93944959836705,-38.75051253547156,0 -72.93950907870676,-38.75050857794896,0 -72.93952693713678,-38.75049101268878,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>28</name>
+		<description><![CDATA[<p>
+Nombre: Avenida O Higgins
+<br/>Tipo: Bandejón
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>28</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Avenida O Higgins</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Bandejón</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>1418</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Bandejón Avenida O Higgins</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94652497672462,-38.7483684559827,0 -72.94651702931688,-38.74837268053058,0 -72.94651005113752,-38.74837784949467,0 -72.94650422323997,-38.748383828763,0 -72.94649969683289,-38.74839046319973,0 -72.94649658935715,-38.74839758067021,0 -72.94649498143863,-38.74840499650715,0 -72.94649491479623,-38.74841251830191,0 -72.94649639115956,-38.74841995089659,0 -72.94649937222384,-38.74842710144764,0 -72.94650378064384,-38.74843378442925,0 -72.94650950204047,-38.74843982644692,0 -72.94651638796854,-38.74844507073639,0 -72.94838636331839,-38.74848292580121,0 -72.94839453154961,-38.74848100679913,0 -72.94840216559818,-38.74847803036942,0 -72.94840904411144,-38.74847408281503,0 -72.94841496764387,-38.74846927859711,0 -72.94841976444016,-38.74846375701612,0 -72.94842329541532,-38.74845767817277,0 -72.94842545818751,-38.74845121832578,0 -72.94842619004658,-38.74844456478123,0 -72.94842546977235,-38.74843791046147,0 -72.94842331824988,-38.74843144831127,0 -72.94841979786382,-38.74842536570331,0 -72.94841501068952,-38.74841983900528,0 -72.94840909553328,-38.74841502846593,0 -72.94840222390754,-38.74841107356875,0 -72.94839459505788,-38.74840808898746,0 -72.94838643018575,-38.74840616126112,0 -72.94652497672462,-38.7483684559827,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>29</name>
+		<description><![CDATA[<p>
+Nombre: Avenida O Higgins
+<br/>Tipo: Bandejón
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>29</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Avenida O Higgins</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Bandejón</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>778</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Bandejón Avenida O Higgins</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94865684157296,-38.74841424655594,0 -72.94864912922134,-38.74841658782331,0 -72.94864202691865,-38.74841990803812,0 -72.94863573551889,-38.74842411330435,0 -72.94863043294366,-38.7484290846966,0 -72.94862626915061,-38.74843468162332,0 -72.9486233618926,-38.74844074580275,0 -72.94862179338757,-38.74844710573911,0 -72.9486216079934,-38.74845358157254,0 -72.94862281095345,-38.74845999016556,0 -72.9486253682482,-38.74846615028218,0 -72.94862920755727,-38.74847188771336,0 -72.9486342203047,-38.74847704020356,0 -72.94864026472935,-38.74848146203951,0 -72.948647169894,-38.7484850281709,0 -72.94865474051947,-38.74848763774686,0 -72.94971319691129,-38.74851122169891,0 -72.94972108746013,-38.74850928697053,0 -72.94972842913255,-38.74850630867429,0 -72.94973499886605,-38.74850237729999,0 -72.94974059705213,-38.7484976122948,0 -72.94974505360091,-38.74849215843419,0 -72.94974823310912,-38.74848618142311,0 -72.94975003897389,-38.74847986286137,0 -72.94975041632794,-38.7484733947261,0 -72.94974935370652,-38.74846697353886,0 -72.94974688339563,-38.74846079439478,0 -72.94974308045113,-38.74845504503488,0 -72.94973806041824,-38.74844990014202,0 -72.94973197582087,-38.74844551603351,0 -72.94972501152752,-38.74844202591168,0 -72.94971737913436,-38.74843953581689,0 -72.94865684157296,-38.74841424655594,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>30</name>
+		<description><![CDATA[<p>
+Nombre: Avenida O Higgins
+<br/>Tipo: Bandejón
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>30</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Avenida O Higgins</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Bandejón</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>733</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Bandejón Avenida O Higgins</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95001562381606,-38.74844309989073,0 -72.95000801456516,-38.74844534746197,0 -72.95000097268077,-38.74844853324321,0 -72.94999468526525,-38.74845257258853,0 -72.94998931937489,-38.74845735817285,0 -72.94998501758117,-38.74846276284351,0 -72.94998189418271,-38.7484686429988,0 -72.94998003216828,-38.74847484240335,0 -72.94997948101187,-38.74848119633935,0 -72.94998025535797,-38.74848753598301,0 -72.94998233463264,-38.74849369289028,0 -72.94998566358991,-38.74849950347235,0 -72.94999015377979,-38.74850481334224,0 -72.9499956858983,-38.7485094814168,0 -72.95000211295734,-38.74851338366536,0 -72.95000926419013,-38.74851641640525,0 -72.95097400275949,-38.74853834466786,0 -72.95098225645617,-38.74853765563613,0 -72.95099023787419,-38.74853587081593,0 -72.950997711597,-38.74853304285154,0 -72.95100445718289,-38.74852925515542,0 -72.95101027566702,-38.74852461944783,0 -72.95101499543009,-38.74851927246162,0 -72.95101847726025,-38.74851337190914,0 -72.95102061845931,-38.7485070918305,0 -72.95102135587176,-38.74850061746007,0 -72.95102066774761,-38.74849413976293,0 -72.95101857438382,-38.74848784980222,0 -72.95101513752563,-38.74848193310365,0 -72.95101045854528,-38.74847656418333,0 -72.95100467545194,-38.7484719014003,0 -72.95099795882113,-38.74846808228572,0 -72.95099050676335,-38.74846521948628,0 -72.95098253908083,-38.74846339744167,0 -72.95001562381606,-38.74844309989073,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>31</name>
+		<description><![CDATA[<p>
+Nombre: Juegos Coilaco
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>31</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Juegos Coilaco</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>610</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos Coilaco</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95106771722664,-38.74863774911402,0 -72.95105078607219,-38.74907015350225,0 -72.95119521949682,-38.74907626218051,0 -72.95121380746494,-38.74863911875556,0 -72.95106771722664,-38.74863774911402,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>32</name>
+		<description><![CDATA[<p>
+Nombre: Juegos Pedro de Valdivia
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>32</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Juegos Pedro de Valdivia</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>496</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos Pedro de Valdivia</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95516276621115,-38.74701086359865,0 -72.95501982377377,-38.74700597797543,0 -72.95500296859535,-38.74732991120204,0 -72.95500906518382,-38.74733983238683,0 -72.95501721276425,-38.74734880532694,0 -72.95502717751712,-38.74735657251582,0 -72.95503867347321,-38.74736291104968,0 -72.95505137072034,-38.74736763902436,0 -72.95506490487126,-38.74737062075574,0 -72.95507888752098,-38.74737177067361,0 -72.95509291739322,-38.74737105577743,0 -72.95510659185655,-38.74736849658336,0 -72.95511951847917,-38.7473641665355,0 -72.95513132629108,-38.74735818989821,0 -72.95514167643029,-38.74735073818989,0 -72.95515027186755,-38.74734202526061,0 -72.95516276621115,-38.74701086359865,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>33</name>
+		<description><![CDATA[<p>
+Nombre: Coilaco
+<br/>Tipo: Zona Descanso
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>33</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Coilaco</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Zona Descanso</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>453</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Zona Descanso I Coilaco</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94786516631396,-38.75000222923007,0 -72.94742360237694,-38.75027221241189,0 -72.94746307740297,-38.7503289305001,0 -72.94775296634839,-38.75019932491309,0 -72.94791549640932,-38.75005198573359,0 -72.94786516631396,-38.75000222923007,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>34</name>
+		<description><![CDATA[<p>
+Nombre: Parque Thiers
+<br/>Tipo: Parque
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>34</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Parque Thiers</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Parque</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>47234</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Parque Thiers</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94269223849632,-38.7514294527525,0 -72.9399093935274,-38.75159498287485,0 -72.93993513004378,-38.7521833854017,0 -72.94011867001295,-38.7521765873346,0 -72.94034574631792,-38.75280649498225,0 -72.94142597034556,-38.75275491655781,0 -72.9408817389949,-38.75364682700696,0 -72.94214871950098,-38.75392310757319,0 -72.94217428012253,-38.75382819677925,0 -72.94212278259434,-38.7538357772805,0 -72.94207042753784,-38.75383746818071,0 -72.94201830769781,-38.75383323418811,0 -72.94196751090925,-38.75382316367411,0 -72.94191909739163,-38.75380746682874,0 -72.94187407761952,-38.75378647127349,0 -72.94183339123164,-38.75376061522294,0 -72.94179788741872,-38.75373043833825,0 -72.94176830719927,-38.75369657046306,0 -72.94174526795362,-38.7536597184774,0 -72.94173367796196,-38.75361971660065,0 -72.9417298352617,-38.75357880865877,0 -72.94173382576618,-38.75353790939443,0 -72.94174556023066,-38.7534979333548,0 -72.94176477624906,-38.7534597744413,0 -72.94179104412267,-38.75342428592146,0 -72.94182377646942,-38.75339226134927,0 -72.94186224135903,-38.7533644168209,0 -72.94190557867978,-38.75334137496266,0 -72.94195281937137,-38.75332365100873,0 -72.94175589547397,-38.75275993643,0 -72.94230466108145,-38.75273384165429,0 -72.9426493728736,-38.75371736203559,0 -72.94313538020616,-38.75412972624593,0 -72.94331789783271,-38.75402713472236,0 -72.94274811902274,-38.75266416973173,0 -72.94308490051147,-38.75259857826376,0 -72.94269223849632,-38.7514294527525,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>35</name>
+		<description><![CDATA[<p>
+Nombre: El Portal
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>35</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>El Portal</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>546</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos El Portal</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94688193365459,-38.73726486239698,0 -72.94685723323573,-38.73755337307276,0 -72.94705985431871,-38.73755693294068,0 -72.9470699916065,-38.73726673594944,0 -72.94688193365459,-38.73726486239698,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>36</name>
+		<description><![CDATA[<p>
+Nombre: El Esfuerzo
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>36</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>El Esfuerzo</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>1680</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta El Esfuerzo</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94718315680456,-38.73746040016045,0 -72.94741851229199,-38.73746882570672,0 -72.94743147971433,-38.73684586748842,0 -72.94738464853273,-38.73661045611934,0 -72.94730665598905,-38.73661290058144,0 -72.94719335252692,-38.73699807706159,0 -72.94718315680456,-38.73746040016045,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>37</name>
+		<description><![CDATA[<p>
+Nombre: La Unión
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>37</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>La Unión</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>1160</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta La Unión</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94564894674065,-38.73685350108691,0 -72.94564952634559,-38.73710018129086,0 -72.94566886826205,-38.73712626886547,0 -72.94607252813231,-38.73712478202579,0 -72.94609541610916,-38.73709085426054,0 -72.94609584561357,-38.73685593489385,0 -72.94609422763129,-38.73685590645556,0 -72.94564894674065,-38.73685350108691,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>38</name>
+		<description><![CDATA[<p>
+Nombre: Los Aromos del Alto
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>38</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Los Aromos del Alto</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>2001</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Los Aromos</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.93857222382647,-38.74089105438166,0 -72.93922950959268,-38.74079298265895,0 -72.93920430416094,-38.7403991734887,0 -72.93888761381881,-38.74040312405663,0 -72.93857222382647,-38.74089105438166,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>39</name>
+		<description><![CDATA[<p>
+Nombre: Plaza Pedro de Valdivia
+<br/>Tipo: Plaza
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>39</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Plaza Pedro de Valdivia</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plaza</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>10097</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plaza Plaza Pedro de Valdivia</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95255592867328,-38.74488833171166,0 -72.95140047699691,-38.74484125967719,0 -72.95140411005251,-38.74484728344859,0 -72.95134010634152,-38.74575507293644,0 -72.95249608327849,-38.74578427467969,0 -72.95255592867328,-38.74488833171166,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>40</name>
+		<description><![CDATA[<p>
+Nombre: Ultra CholChol
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>40</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Ultra CholChol</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>738</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Ultra CholChol</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.96035925573177,-38.7446061656112,0 -72.96012744398445,-38.7446006886282,0 -72.96012204854645,-38.74459773359836,0 -72.96011571142462,-38.74469203069801,0 -72.95978710133363,-38.74468629357405,0 -72.95978364763302,-38.74474345007395,0 -72.96009375767541,-38.74475744676677,0 -72.96008997864277,-38.74482604095869,0 -72.96034527996888,-38.74484051056622,0 -72.96035925573177,-38.7446061656112,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>41</name>
+		<description><![CDATA[<p>
+Nombre: Multicancha Lynch
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>41</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Multicancha Lynch</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>3844</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Lynch</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95388016742952,-38.74796745795092,0 -72.95383323882379,-38.74854476349575,0 -72.95452463442378,-38.74858666932464,0 -72.95455685356929,-38.74799122572803,0 -72.95454890643434,-38.74800300676271,0 -72.95388016742952,-38.74796745795092,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>42</name>
+		<description><![CDATA[<p>
+Nombre: Juegos Carrera
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>42</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Juegos Carrera</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>187</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Villa Almagro</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos Carrera</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94389596360631,-38.78359231519228,0 -72.94383088978313,-38.78347196905824,0 -72.94369871814148,-38.78351374676036,0 -72.94375905414768,-38.78363996960329,0 -72.94389596360631,-38.78359231519228,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>43</name>
+		<description><![CDATA[<p>
+Nombre: Cancha Almagro
+<br/>Tipo: Cancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>43</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Cancha Almagro</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Cancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>6301</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Villa Almagro</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Cancha Almagro</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94544414203199,-38.78194344348974,0 -72.94480437120559,-38.78216105490979,0 -72.94528502027569,-38.7830301397135,0 -72.94591877748056,-38.78281003598867,0 -72.94590964464457,-38.78280987539607,0 -72.94544414203199,-38.78194344348974,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>44</name>
+		<description><![CDATA[<p>
+Nombre: Juegos Pedro de Valdivia
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>44</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Juegos Pedro de Valdivia</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>156</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Villa Almagro</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos P.de Valdivia Almagro</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94728703181619,-38.78151191214896,0 -72.94739409164102,-38.78147469550465,0 -72.94730889070763,-38.78134446150892,0 -72.94721276289557,-38.78138282379003,0 -72.94728703181619,-38.78151191214896,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>45</name>
+		<description><![CDATA[<p>
+Nombre: Multicancha Juvencio Valle
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>45</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Multicancha Juvencio Valle</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>550</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Villa Almagro</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Juvencio Valle</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95831640749121,-38.77671568429419,0 -72.95823904102187,-38.77656652279904,0 -72.957912164592,-38.77666570624751,0 -72.957989448899,-38.7768177273411,0 -72.95831640749121,-38.77671568429419,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>46</name>
+		<description><![CDATA[<p>
+Nombre: Plazoleta Juvencio Valle
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>46</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Plazoleta Juvencio Valle</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>1944</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Villa Almagro</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta Juvencio Valle</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95853190163768,-38.77624685772895,0 -72.95846346616672,-38.77608354831164,0 -72.95806475338152,-38.77618147680715,0 -72.95750163128555,-38.7764910914444,0 -72.95758278494314,-38.77663555158448,0 -72.957737434241,-38.77655243049208,0 -72.95853190163768,-38.77624685772895,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>47</name>
+		<description><![CDATA[<p>
+Nombre: Juegos Juvencio Valle
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>47</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Juegos Juvencio Valle</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>279</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Villa Almagro</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos Juvencio Valle</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95874511232182,-38.77643296108181,0 -72.95893838107766,-38.77638388948671,0 -72.95888850504274,-38.77624048405848,0 -72.95867802146546,-38.7763292758278,0 -72.95874511232182,-38.77643296108181,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>48</name>
+		<description><![CDATA[<p>
+Nombre: Plazoleta Jaime Poch
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>48</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Plazoleta Jaime Poch</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>1507</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta Jaime Poch</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94062886191949,-38.75404953212486,0 -72.94008734815365,-38.75407717717641,0 -72.94012562852224,-38.75446120305755,0 -72.9403814924689,-38.75445713114464,0 -72.94062886191949,-38.75404953212486,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>49</name>
+		<description><![CDATA[<p>
+Nombre: Coilaco
+<br/>Tipo: Zona Descanso
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>49</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Coilaco</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Zona Descanso</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>645</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Zona Descanso II Coilaco</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94660078725661,-38.75099685178931,0 -72.94727717109365,-38.75040510087765,0 -72.94733272159459,-38.75037889886843,0 -72.94729897456293,-38.75034540643161,0 -72.94713154468971,-38.75045117656646,0 -72.9469059594247,-38.75061028042319,0 -72.94655438293111,-38.75095884545301,0 -72.94660078725661,-38.75099685178931,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>50</name>
+		<description><![CDATA[<p>
+Nombre: Juegos Castellon
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>50</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Juegos Castellon</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>246</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos Castellon</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95711273196702,-38.73843749255488,0 -72.95711626330895,-38.73831358447987,0 -72.9569124897662,-38.73830763785941,0 -72.95690622128681,-38.73842076991252,0 -72.95693931430424,-38.73843446069737,0 -72.95711273196702,-38.73843749255488,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>51</name>
+		<description><![CDATA[<p>
+Nombre: Michelle Bachelet
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>51</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Michelle Bachelet</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>646</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Michelle Bachelet</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94295857008966,-38.73456251861041,0 -72.94333369109583,-38.73456060613257,0 -72.94333437752456,-38.73438387898745,0 -72.94295892462051,-38.73438281955762,0 -72.94295857008966,-38.73456251861041,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>52</name>
+		<description><![CDATA[<p>
+Nombre: La Unión
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>52</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>La Unión</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>864</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha La Unión</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94564673086514,-38.73591055617056,0 -72.94609756514494,-38.73591522557687,0 -72.9460979052237,-38.73572913896884,0 -72.94607823580326,-38.73571448906015,0 -72.9460527625871,-38.7357111804918,0 -72.94566363167644,-38.73571578359905,0 -72.94564634298347,-38.7357455184673,0 -72.94564673086514,-38.73591055617056,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>53</name>
+		<description><![CDATA[<p>
+Nombre: Rayen Mawida
+<br/>Tipo: Parque
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>53</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Rayen Mawida</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Parque</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>9789</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Parque Rayen Mawida</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94285732874513,-38.73136884014615,0 -72.94272845022496,-38.73135226718117,0 -72.9427284662074,-38.73161689508002,0 -72.94285474749168,-38.73161792611699,0 -72.94287718721522,-38.73163143331038,0 -72.9431618202448,-38.731632539225,0 -72.94365931459834,-38.73163447052691,0 -72.94484634938114,-38.73163389591354,0 -72.94486649870871,-38.73162113808281,0 -72.94499889848916,-38.73162108238481,0 -72.94502285968802,-38.73163461592495,0 -72.94545656440187,-38.73163508966157,0 -72.94548536197553,-38.73163917200289,0 -72.94553656566866,-38.73165795245013,0 -72.94558735972662,-38.7316910298745,0 -72.94565758616423,-38.73173636905648,0 -72.94571183208438,-38.73175520290839,0 -72.94619047200554,-38.73183394492457,0 -72.94625121191305,-38.73183858845695,0 -72.94716540187825,-38.73185345918368,0 -72.94720359890285,-38.73184817008266,0 -72.94723138729358,-38.73183435401285,0 -72.94737118181484,-38.73173548811255,0 -72.94740062762035,-38.73171693304553,0 -72.94743121927868,-38.73171151028416,0 -72.94747854254584,-38.73170638138742,0 -72.94803813405798,-38.73166852794341,0 -72.94802138767722,-38.73145605483959,0 -72.94788914509891,-38.73150379741502,0 -72.94776546247545,-38.73151831368433,0 -72.94764726377652,-38.73150074167145,0 -72.94750091551441,-38.73145645075862,0 -72.94739102469389,-38.73146763281343,0 -72.9472946527505,-38.73148501231481,0 -72.94714487950002,-38.73161350326299,0 -72.94707638391624,-38.73166713278283,0 -72.9469009167902,-38.73168312244033,0 -72.94678206981676,-38.73168818648333,0 -72.94630304006587,-38.7316761929873,0 -72.9462360113089,-38.73167859106095,0 -72.94603634368197,-38.73168938603548,0 -72.94580116062893,-38.73166498788936,0 -72.94539479699063,-38.73156009866654,0 -72.94525711383375,-38.73147900478219,0 -72.9451846156682,-38.73145984978517,0 -72.94507689441566,-38.73144841948926,0 -72.94458479222619,-38.73141473278946,0 -72.94427716505272,-38.73142243383671,0 -72.94400990500692,-38.73140223588306,0 -72.94381061383167,-38.73139992149683,0 -72.94343592402858,-38.73141120839134,0 -72.94321562829217,-38.73140113598632,0 -72.94320732314911,-38.7313978781999,0 -72.94320732314911,-38.73139787819991,0 -72.94320834275737,-38.73156006326711,0 -72.94286232330515,-38.7315606370745,0 -72.94286420283693,-38.73139628157916,0 -72.94306301272741,-38.73139720681182,0 -72.94293126056326,-38.73137818895054,0 -72.94285732874513,-38.73136884014615,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>54</name>
+		<description><![CDATA[<p>
+Nombre: Plaza Huincul
+<br/>Tipo: Plaza
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>54</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Plaza Huincul</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plaza</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>2968</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plaza Huincul</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.95502464902938,-38.73967616330152,0 -72.95532320993793,-38.73968844902443,0 -72.9553400241508,-38.73929108638816,0 -72.95505107994762,-38.73928392360501,0 -72.95455523597371,-38.73927163021222,0 -72.95453695914107,-38.73965609331074,0 -72.95502464902938,-38.73967616330152,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>55</name>
+		<description><![CDATA[<p>
+Nombre: Plazoleta Ibáñez del Campo
+<br/>Tipo: Plazoleta
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>55</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Plazoleta Ibáñez del Campo</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Plazoleta</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>875</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Plazoleta C. Ibáñez del Campo</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.93612983253115,-38.75249570994077,0 -72.93615936971334,-38.75268576149977,0 -72.93661880206716,-38.75259017083336,0 -72.93658023772296,-38.75239638392251,0 -72.93612983253115,-38.75249570994077,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>56</name>
+		<description><![CDATA[<p>
+Nombre: Alberto Hurtado
+<br/>Tipo: Juegos
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>56</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Alberto Hurtado</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Juegos</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>106</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Juegos Alberto Hurtado</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94014649894144,-38.75386700735285,0 -72.94013082994724,-38.75372368968574,0 -72.94005448009645,-38.75373187972767,0 -72.94007021745314,-38.75387281458487,0 -72.94014649894144,-38.75386700735285,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>57</name>
+		<description><![CDATA[<p>
+Nombre: Eduardo Frei
+<br/>Tipo: S/Info
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>57</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Eduardo Frei</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>S/Info</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>3441</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>S/Info Eduardo Frei</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94961218020981,-38.73334394066449,0 -72.94962868341432,-38.7325965970642,0 -72.94932463169108,-38.73258554022981,0 -72.94934434920987,-38.73291774380877,0 -72.94882585508971,-38.73291245856039,0 -72.94883765558347,-38.73309575950223,0 -72.94912489128326,-38.73309889359668,0 -72.9491326228884,-38.73333933991923,0 -72.94961218020981,-38.73334394066449,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>58</name>
+		<description><![CDATA[<p>
+Nombre: El Bosque
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>58</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>El Bosque</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha El Bosque</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94579482790695,-38.73368929462472,0 -72.9454036964263,-38.73368019698312,0 -72.94539198188356,-38.73389103041421,0 -72.94580037752571,-38.73389154571609,0 -72.94579482790695,-38.73368929462472,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>60</name>
+		<description><![CDATA[<p>
+Nombre: Rayen Mawida
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>60</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Rayen Mawida</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Rayen Mawida</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.94320732314911,-38.7313978781999,0 -72.94286420283696,-38.73139628157919,0 -72.94286232330512,-38.73156063707453,0 -72.9432083427574,-38.73156006326715,0 -72.94320732314911,-38.7313978781999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>59</name>
+		<description><![CDATA[<p>
+Nombre: Presidente Lagos
+<br/>Tipo: Multicancha
+</p>]]></description>
+		<styleUrl>#style10</styleUrl>
+		<ExtendedData>
+			<Data name="Id">
+				<displayName>Id</displayName>
+				<value>59</value>
+			</Data>
+			<Data name="Nombre">
+				<displayName>Nombre</displayName>
+				<value>Presidente Lagos</value>
+			</Data>
+			<Data name="Tipo">
+				<displayName>Tipo</displayName>
+				<value>Multicancha</value>
+			</Data>
+			<Data name="Sup_m2">
+				<displayName>Sup_m2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="Lugar">
+				<displayName>Lugar</displayName>
+				<value>Nueva Imperial</value>
+			</Data>
+			<Data name="Tipo_2">
+				<displayName>Tipo_2</displayName>
+				<value>NULL</value>
+			</Data>
+			<Data name="CLASS">
+				<displayName>CLASS</displayName>
+				<value>Multicancha Presidente Lagos</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-72.9455463023137,-38.7373636746478,0 -72.94535604632681,-38.73737143690258,0 -72.94535105327827,-38.73764458943753,0 -72.94555013288191,-38.73762587499765,0 -72.9455463023137,-38.7373636746478,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>
