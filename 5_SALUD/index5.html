@@ -346,6 +346,11 @@ function onEachFeaturePostas(feature, layer) {
                             <td>' + ":" + '</td>\
                             <td>'  + (feature.properties.TIPO) + '</td>\
                           </tr>\
+                          <tr>\
+                            <th scope="row">Distancia aprox. (ruta)</th>\
+                            <td>' + ":" + '</td>\
+                            <td>'  + (feature.properties.DISTANCIA) + ' km' + '</td>\
+                          </tr>\
                           </table>\
                           '
                           ;
@@ -467,14 +472,14 @@ var clusters = L.markerClusterGroup();
   clusters.addLayer(saludImp);
   map.addLayer(clusters);
 
-//ETIQUETAS JJVV
+//ETIQUETAS SALUD
 map.on('zoomend', function() {
   var zoom = map.getZoom();
     if( map.hasLayer(postasImp) ) {
       postasImp.eachLayer( function (layer){
         //console.log(layer);
-        if ( zoom >= 12 && (!layer.getTooltip()) ) {
-          tooltiptext = '<b>'+'<div>'+layer.feature.properties.NOMBRE+'</div>'+'</b>'+'(<i>'+layer.feature.properties.TIPO+'</i>)';
+        if ( zoom >= 11 && (!layer.getTooltip()) ) {
+          tooltiptext = '<b>'+'<div>'+layer.feature.properties.NOMBRE+'</div>'+'</b>'+'<i>'+layer.feature.properties.TIPO+'</i>'+'<br>(<i>A '+layer.feature.properties.DISTANCIA+ ' km'+ '</i>)';
           layer.bindTooltip(tooltiptext , { sticky: true ,permanent: true, interactive: true , direction: 'left'});
           } else if ( zoom < 13 && (layer.getTooltip()) ) {
               //console.log('remove tooltip');
