@@ -2,7 +2,7 @@
 
 > 📜 **Nota arqueológica**
 >
-> Este proyecto es de hace varios años, cuando la asistencia para programar era buscar soluciones en foros de StackOverflow a las 2 a.m., entre prueba y error. Cada función acá fue pensada, escrita y depurada a mano. Hecho con cariño y pocas horas de sueño.
+> Este proyecto fue construido hace varios años, cuando la asistencia para programar era buscar soluciones en foros de StackOverflow a las 2 a.m., y reparar el código a prueba y error. Cada función acá fue pensada, escrita y depurada a mano. Hecho con cariño y pocas horas de sueño.
 
 Conjunto de visores geográficos interactivos construidos con [Leaflet](https://leafletjs.com/) para la comuna de Nueva Imperial. Cada visor permite explorar distintas capas de información territorial sobre un mapa base, con búsqueda, leyendas y paneles de información. Se accede a las distintas categorías mediante un main site.
 
