@@ -1,5 +1,7 @@
 # Visor Territorial Nueva Imperial
 
+*🧓 Creado antes de la IA.*
+
 Conjunto de visores geográficos interactivos construidos con [Leaflet](https://leafletjs.com/) para la comuna de Nueva Imperial. Cada visor permite explorar distintas capas de información territorial sobre un mapa base, con búsqueda, leyendas y paneles de información. Se accede a las distintas categorías mediante un main site.
 
 ## Visores disponibles
