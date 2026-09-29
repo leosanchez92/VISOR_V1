@@ -1,5 +1,7 @@
 # Visor Territorial Nueva Imperial
 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
 > 📜 **Nota arqueológica**
 >
 > Este proyecto fue construido hace varios años, cuando la asistencia para programar era buscar soluciones en foros de StackOverflow a las 2 a.m., y reparar el código a prueba y error. Cada función acá fue pensada, escrita y depurada a mano. Hecho con cariño y pocas horas de sueño.
